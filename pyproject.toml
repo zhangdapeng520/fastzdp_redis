@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "fastzdp-redis"
+version = "0.1.0"
+description = ""
+authors = ["张大鹏 <1156956636@qq.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+redis = {extras = ["hiredis"], version = "^5.0.8"}
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
